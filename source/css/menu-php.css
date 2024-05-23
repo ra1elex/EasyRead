@@ -1,0 +1,148 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f2f2f2; 
+    background-image: url('https://pix-feed.com/wp-content/uploads/2018/11/medium_44ab44d45d679b9c7a173b6d4b9cc644-1030x687.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+} 
+ 
+header { 
+    background-color: #277a27; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px 0; 
+} 
+
+header h1 { 
+    margin: 0; 
+}
+.menu {
+    display: flex;
+    margin-left: 1700px;
+    margin-top: -40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.burger-checkbox {
+    position: absolute;
+    visibility: hidden;
+  }
+  .burger {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: none;
+    background: transparent;
+    width: 40px;
+    height: 26px;
+  }
+  .burger::before,
+  .burger::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    background: #000;
+  }
+  .burger::before {
+    top: 0;
+    box-shadow: 0 11px 0 #000;
+    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+  }
+  .burger::after {
+    bottom: 0;
+    transition: bottom .3s .15s, transform .3s;
+  }
+  .burger-checkbox:checked + .burger::before {
+    top: 11px;
+    transform: rotate(45deg);
+    box-shadow: 0 6px 0 rgba(0,0,0,0);
+    transition: box-shadow .15s, top .3s, transform .3s .15s;
+  }
+  .burger-checkbox:checked + .burger::after {
+    bottom: 11px;
+    transform: rotate(-45deg);
+    transition: bottom .3s, transform .3s .15s;
+  }
+  .menu-list {
+    top: 15px;
+    left: 0;
+    position: absolute;
+    display: grid;
+    gap: 10px;
+    padding: 18px 0;
+    margin: 0;
+    background: #277a27;
+    list-style-type: none;
+    transform: translateX(-1000%);
+    transition: .0s;
+    width: 200px;
+  }
+  .menu-item {
+    display: block;
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .menu-item:hover {
+    background: rgba(255,255,255,.2)
+  }
+  .burger-checkbox:checked ~ .menu-list {
+    transform: translateX(851%);
+  }
+main { 
+    padding: 20px; 
+}
+
+.contact-info { 
+    border: 2px solid #277a27; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} 
+ 
+.contact-info h2 { 
+    margin-top: 0; 
+    font-size: 24px; 
+    color: #277a27; 
+} 
+ 
+.contact { 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+} 
+ 
+.contact img { 
+    width: 30px; 
+    margin-right: 10px; 
+}
+.logo img {
+    position: absolute;
+    right: 250px;
+    top: 70px;
+}
+.animation {
+    position: absolute;
+    right: 50px;
+    top: 570px;
+
+} 
+footer { 
+    background-color: #277a27; 
+    color: #fff; 
+    text-align: center; 
+    padding: 24px 0; 
+}
