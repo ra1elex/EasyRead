@@ -1,21 +1,43 @@
-* {
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: white;
+    
+    
+}
+.heder-main{
+    background-color: #FCD69C;
 }
 
 .heder {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
+.logo{
+    display: flex;
+    align-items: flex-start;
+    padding-right: 500px;
+}
+.authentication p{
+    margin: 0;
+    font-size: 16px;
+    margin-top: 4px;
+    text-decoration: none;
+}
+.authentication button{
+    margin-top: 3px;
+}
+
 
 .navbar {
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    gap: 30px;
-    width: 700px;
+    gap: 500px;
+    margin-bottom: 15px;
+    margin-right: 520px;
+    margin-top: 3px;
 }
 
 .dropbtn {
@@ -58,6 +80,7 @@
 #toggle-menu{
     font-size: 18px;
     text-decoration: none;
+    color: #000000;
 }
 
 #side-menu {
@@ -66,7 +89,7 @@
     left: -250px;
     width: 250px;
     height: 100vh;
-    background-color: #545f69;
+    background-color: #FCD69C;
     transition: left 0.3s;
 }
 
@@ -80,14 +103,14 @@
 }
 
 #side-menu ul li a {
-    color: white;
+    color: #222222;
     text-decoration: none;
     font-size: 16px;
 }
 
 .line {
-    margin-top: 15px;
-    border-bottom: 3px solid #778899;
+    border-bottom:4px solid #778899;
+    margin-top: 13px;
 }
 
 .line-four {
@@ -142,13 +165,16 @@
 
 .line-three {
     margin-top: 70px;
-    border-bottom: 3px solid #778899;
+    border-bottom: 4px solid #778899;
+}
+.footer-main{
+    background-color: #FCD69C;
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 16px;
     gap: 10px;
 }
 
@@ -157,7 +183,7 @@
     font-size: 18px;
     color: #545f69;
 }
-.Dark-theme{
+.theme{
     text-decoration: none;
     font-size: 16px;
     color: white;
