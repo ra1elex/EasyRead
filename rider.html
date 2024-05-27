@@ -6,51 +6,64 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Rider</title>
 	<link rel="stylesheet" href="source/css/rider.css">
-	<script src="source/script/rider.js" defer></script>
+	<link rel="stylesheet" title="theme" href="source/css/rider-theme-dark.css">
+
+	<script src="script/rider.js" defer></script>
 </head>
 
 <body>
-	<div class="heder">
-		<div class="navbar">
-			<div class="dropdown">
-				<button onclick="myFunction()" class="dropbtn"><img
-						src="static/img/kisspng-hamburger-button-computer-icons-menu-number-list-5b5c089f664156.0146657315327581754189.jpg"
-						width="25px" height="auto" alt="">Главы</button>
-				<div id="myDropdown" class="dropdown-content">
-					<a href="#">Глава 1</a>
-					<a href="#">Глава 2</a>
-					<a href="#">Глава 3</a>
-				</div>
+	<div class="heder-main">
+		<div class="heder">
+			<div class="logo">
+				<img src="source/images-svg/Логотип.svg" alt="#">
 			</div>
-			<button id="toggle-menu"> <img src="static/img/109596.png" alt="" width="15px"
-					height="auto">Настройки</button>
-			<nav id="side-menu">
-				<ul>
-					<li><a href="#">Яркость <img src="static/img/lamp-transformed (1).png" alt="" width="18px" height="auto"></a></li>
-					<div class="slidecontainer">
-						<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+			<div class="navbar">
+				<div class="dropdown">
+					<button onclick="myFunction()" class="dropbtn"><img
+							src="static/img/kisspng-hamburger-button-computer-icons-menu-number-list-5b5c089f664156.0146657315327581754189.jpg"
+							width="25px" height="auto" alt="">Главы</button>
+					<div id="myDropdown" class="dropdown-content">
+						<a href="#">Глава 1</a>
+						<a href="#">Глава 2</a>
+						<a href="#">Глава 3</a>
 					</div>
-					<li><a href="#">Размер текста <img src="static/img/1b6cd421331fa8402fddb3915d949642-transformed.png" alt="" width="20px" height="auto"></a></li>
-					<div class="slidecontainer">
-						<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-					</div>
-					<div class="Dark-theme">
-						<form>
-							<label>
-								<input type="checkbox">
-								Темная тема
-							</label>
-						</form>
-					</div>
-				</ul>
-			</nav>
+				</div>
+				<button id="toggle-menu"> <img src="static/img/109596.png" alt="" width="15px"
+						height="auto">Настройки</button>
+				<nav id="side-menu">
+					<ul>
+						<li><a href="#">Яркость <img src="static/img/lamp-transformed (1).png" alt="" width="18px"
+									height="auto"></a></li>
+						<div class="slidecontainer">
+							<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+						</div>
+						<li><a href="#">Размер текста <img
+									src="static/img/1b6cd421331fa8402fddb3915d949642-transformed.png" alt=""
+									width="20px" height="auto"></a></li>
+						<div class="slidecontainer">
+							<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+						</div>
+						<div class="theme">
+							<form>
+								<label>
+									<input type="checkbox">
+									Темная тема
+								</label>
+							</form>
+						</div>
+					</ul>
+				</nav>
+			</div>
+			<div class="authentication">
+				<a href="login-page.html"><button><p>Войти|Регистрация</p></button></a>
+			</div>
 		</div>
 	</div>
 	<div class="line"></div>
 	<div class="line-four"></div>
 	<div class="content">
 		<div class="cover">
-			<img src="static/img/images.jpg" alt="" width="450px" height="auto">
+			<img src="source/images-svg/images.png" alt="" width="450px" height="auto">
 		</div>
 		<div class="info">
 			<h1><strong>Переосмысление мифов о <br>Геракле Г.Л Олди<br>
@@ -58,19 +71,21 @@
 				</strong></h1>
 			<p><strong>Авторы:</strong> Нонна Жирайровна Элязян <br></p>
 			<p><strong>Год:2021</strong>
-				<span class="changes-two"><strong>Язык:</strong>RU </span>
+				<strong>Язык:</strong>RU 
 			</p>
 		</div>
 	</div>
 	</div>
 	<div class="line-two"></div>
 	<div class="line-three"></div>
+	<div class="footer-main">
 	<div class="footer">
 		<button><a href="#">1</a></button>
 		<button><a href="#">Следущая глава</a></button>
 	</div>
+</div>
 
 </body>
-
+<script src="source/script/rider.js"></script>
 
 </html>
