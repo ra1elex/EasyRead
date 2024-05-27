@@ -3,117 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/css/login-page.css">
+
     <title>Личный кабинет</title>
     <link rel="stylesheet" href="source/css/lk-page.css">
 
     <script src="source/script/script-lk-page.js" defer></script>
 
+
 </head>
 <body>
-
-    <div class="main">
-        <h2>Личный кабинет</h2>
-        <p>Ваши списки литературы.</p>
-        <b>Списки литературы:</b>
-        <img src="source/images-png/books.png">
-        <details>
-            <summary>
-                Список литературы
-            </summary>
-            <div class="block-list">
-                <li>Агафонова, Н. Н. Гражданское право: учеб. пособие для вузов /
-                    Н. Н. Агафонова, Т. В. Богачева, Л. И. Глушкова. – Изд. 2-е, перераб. и доп. –
-                    М.: Юрист, 2002. – 542 с</li>
-                    <hr>
-                    <li>Новгородская область: путеводитель / сост.: В. М. Строгова, И. О. Кравченко. –
-                        [Б.м.: б.и.], 2002. – 122 с</li>  
-                    <hr>
-                    <li>Савельев, И. В. Курс общей физики: в 5 кн. / И. В. Савельев. – М.: Астрель,
-                        2001–2002. – Кн. 1–5</li>
-                    <hr>
-                    <li>Савельев, И. В. Курс общей физики: в 5 кн. Кн. 2. Электричество и магнетизм /
-                        И. В. Савельев. – М.: Астрель, 2001. – 336 с.</li>
-                    <hr>
-                    <li>Graham, Robert J. Creating an environment for succesful project / Graham Robert J.,
-                        Englund Randal L. – San Francisco: Jossey-Bass, 1997. – 253 p.</li>
-            </div>
-        </details>
-
-<header>
-    <nav>
-        <div class="navbar">
-            <div class="list">
-            <a href=""><img src="source/images-svg/logo.svg" alt=""></a>
-            <!--<div class="dropdown">
-                <button data-path="one" class="dropbtn dropdown-toggle">
-                Кнопка выпадающего списка
-                </button>
-                <ul data-target="one" class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Действие</a></li>
-                <li><a class="dropdown-item" href="#">Другое действие</a></li>
-                <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
-                </ul>
-            </div>-->
-            <div class="dropdown">
-                <button onclick="show_hide()" class="button">DropDown Menu
-</button><!-- dropdown list items will show when we click the drop button -->
-                <div id="books">
-                   <a href="#"> Tutorials </a>
-                   <a href="#"> About Us </a>
-                   <a href="#"> Contact Us</a>
-                   <a href="#"> career </a>
-                </div>
-             </div>
-             
-            </div>
-            <a href=""><img src="source/images-svg/avatar.svg" alt=""></a>
-        </div>
-
-    </nav>
-
-</header>
-<!--<main>
-    <section>
+    <div class="reg-window">
         <div class="container">
-            
-            <img src="source/images-svg/avatar.svg" alt="">
+            <h1>Вход в аккаунт</h1>
+            <form class="contact-form">
+            <label for="name">Логин или почта</label>
+            <input type="text" id="name">
+            <label for="password">Пароль</label>
+            <input type="password" id="password">
 
-            <ul>
-                <li>Лента новостей</li>
-                <li>Мой профиль</li>
-                <li>библиотека</li>
-                <li>Остальное</li>
-             
-            </ul>
-            <div class="images">
-   
+            <div class="buttons-reg">
+                <p><a href="#">Забыли пароль?</a></p>
+                <p class="reg-button"><a href="#">Зарегистрироваться</a></p>
+                <button class="login-button">Войти</button>
             </div>
-        </div>
-    </section>
-    <aside>
-        <ul>
-            <ol>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-                <li>6</li>
-                <li>7</li>
-                <li>8</li>
-                <li>9</li>
-                <li>10</li>
-            </ol>
-        </ul>
-    </aside>
-    <section>
-        <div class="News">
-            <h1>Все новости</h1>
             
+        </form>
         </div>
-    </section>
-</main> 
--->
-<footer></footer>
+        
+    </div>
 </body>
 </html>
