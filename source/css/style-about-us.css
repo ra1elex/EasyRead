@@ -14,12 +14,14 @@ body {
 }
 
 .navbar a {
+    text-decoration: none;
+}
 
 body{
     background-color: rgb(255, 255, 255);
 }
 .navbar {
-    background-color: #4582af;
+    background-color: #FCD69C;
     overflow: hidden;
 
   }
@@ -79,7 +81,7 @@ body{
 
   }
   .navbar a:hover {
-    color: #85beff;
+    color: #000000;
   }
   .login {
     margin-left: 30em;

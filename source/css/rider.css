@@ -1,11 +1,13 @@
-* {
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: white;
+    
     
 }
 .heder-main{
-    background-color: green;
+    background-color: #FCD69C;
 }
 
 .heder {
@@ -17,6 +19,16 @@
     align-items: flex-start;
     padding-right: 500px;
 }
+.authentication p{
+    margin: 0;
+    font-size: 16px;
+    margin-top: 4px;
+    text-decoration: none;
+}
+.authentication button{
+    margin-top: 3px;
+}
+
 
 .navbar {
     display: flex;
@@ -68,6 +80,7 @@
 #toggle-menu{
     font-size: 18px;
     text-decoration: none;
+    color: #000000;
 }
 
 #side-menu {
@@ -76,7 +89,7 @@
     left: -250px;
     width: 250px;
     height: 100vh;
-    background-color: #545f69;
+    background-color: #FCD69C;
     transition: left 0.3s;
 }
 
@@ -90,7 +103,7 @@
 }
 
 #side-menu ul li a {
-    color: white;
+    color: #222222;
     text-decoration: none;
     font-size: 16px;
 }
@@ -155,7 +168,7 @@
     border-bottom: 4px solid #778899;
 }
 .footer-main{
-    background-color: green;
+    background-color: #FCD69C;
 }
 
 .footer {
@@ -170,7 +183,7 @@
     font-size: 18px;
     color: #545f69;
 }
-.Dark-theme{
+.theme{
     text-decoration: none;
     font-size: 16px;
     color: white;
