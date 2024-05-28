@@ -1,0 +1,189 @@
+.navbar {
+    background-color: green;
+}
+
+.navbar-center {
+    text-align: center;
+}
+
+.default {
+    margin-top: 5px;
+    margin-left: 90px;
+    width: 124px;
+    height: 46px;
+    top: 48px;
+    left: 404px;
+    padding: 0px 12px 0px 12px;
+    gap: 12px;
+    border-radius: 5px;
+    background-color:
+        #FF7A00;
+}
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    background-color:
+        #FCD69C;
+    overflow: hidden;
+
+}
+
+.navbar-center {
+    text-align: center;
+}
+
+.navbar a {
+
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px 20px;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    color: #85beff;
+}
+
+.login {
+    margin-left: 30em;
+
+}
+
+.navbar {
+    padding: 0px 125px
+}
+
+;
+
+
+.navbar-center {
+    text-align: center;
+}
+
+.navbar a {
+
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .navbar {
+        background-color: #4582af;
+        overflow: hidden;
+
+    }
+}
+
+.navbar-center {
+    text-align: center;
+}
+
+.navbar a {
+
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px 20px;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    color: #85beff;
+}
+
+.login {
+    margin-left: 30em;
+}
+
+.navbar {
+    padding: 0px 125px
+}
+
+.section{
+    display: block;
+    top: 205px;
+    left: 89px;
+    width: 1000px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 230px;
+background-color: #FCD69C;
+}
+.content-section{
+    background-color: aliceblue;
+    width: 750px;
+    height: 40px;
+    margin-left: 20px;
+}
+.content{
+    background-color: #FCD69C;
+    display: block;
+    top: 205px;
+    left: 89px;
+    width: 350px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 230px;
+    border-radius: 7px;
+}
+.button{
+    background-color: #FF7A00;
+    width: 120px;
+height: 33px;
+border-radius: 5px;
+margin-left: 15px;
+}
+
+.content>p{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: aliceblue;
+}
+.button-content{
+    background-color: #FF7A00;
+    width: 120px;
+height: 33px;
+border-radius: 5px;
+}
+
+
+
+
+
+.section-content{
+    background-color: #FCD69C;
+    display: block;
+    top: 205px;
+    left: 89px;
+    width: 350px;
+    height: 100px;
+    margin-top: -120px;
+    margin-left: 860px;
+    border-radius: 7px;
+}
+.button-section{
+    background-color: #FF7A00;
+    width: 120px;
+height: 33px;
+border-radius: 5px;
+margin-left: 15px;
+}
+
+.section-content>p{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: aliceblue;
+}
+.full-button{
+    background-color: #FF7A00;
+    width: 120px;
+height: 33px;
+border-radius: 5px;
+}
