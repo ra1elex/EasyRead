@@ -9,20 +9,27 @@
 
 <body>
     
-    <header class="navbar-full">
-        <div class="navbar">
-            <a href="#">
-                Читатели
-            </a>
-            <button class="default">
-                <p>Каталог</p>
-            </button>
-            <a href="#" class="login">Войти</a>
-            <a href="#">Избранные</a>
-            <a href="#">Заказы</a>
-            <a href="#">Корзина</a>
-        </div>
-
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Читатели</h1>
+            </div>
+            <div class="catalog">
+                <button>Каталог<img src="source/images-svg/open-btn.svg" alt="Каталог"></button>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск..." aria-label="Поиск">
+                <button>Найти</button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="sign-in-page.html" aria-label="Профиль"><img src="source/images-svg/profile.svg" alt="Профиль"></a></li>
+                <li><a href="#" aria-label="Избранное"><img src="source/images-svg/favorite.svg" alt="Избранное"></a>
+                </li>
+                <li><a href="making-orders.html" aria-label="Заказы"><img src="source/images-svg/orders.svg" alt="Заказы"></a></li>
+                <li><a href="book-shop.html" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg" alt="Корзина"></a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main class="main">
@@ -53,8 +60,23 @@
                     <button class="full-button">
                         <p>При получении</p>
                     </button>
-                
+            </section>
+            <section class="main-section">
+                <p>Итого:</p>
+                <h4>1 товар на сумму:</h4>
+                <h4>Доставка:</h4>
+                <p>Бесплатно</p>
             </section>
     </main>
+    <footer class="footer">
+        <div>
+            <p>8 (800) 500-05-22 <br>Контактный центр</p>
+        </div>
+        <div class="footer-icon">
+            <a href="#" class="icon" aria-label="VK"><i class="fa-brands fa-vk"></i></a>
+            <a href="#" class="icon" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+    </footer>
+    <script src="source/script/login-page.js"></script>
 </body>
 </html>
