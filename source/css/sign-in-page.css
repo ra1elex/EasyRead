@@ -178,22 +178,15 @@ form p {
     width: 100%;
     position: absolute;
     bottom: 0;
-}
-
-.footer p {
-    color: white;
+  }
+  
+  .footer p {
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin-left: 20px;
-}
-
-.footer-icon {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.footer-icon a {
-    color: white;
+  }
+  .footer-icon-right a {
+    color: rgb(0, 0, 0);
     margin: 0 10px;
-    font-size: 24px;
-}
+    font-size: 36px;
+  }
