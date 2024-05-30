@@ -13,12 +13,19 @@ body {
     height: 100vh;
 }
 
+
 .header {
     background-color: #FCD69C;
     width: 100%;
     padding: 10px 0;
     display: flex;
     justify-content: center;
+
+
+
+.navbar {
+    background-color: #FCD69C;
+
 }
 
 .navbar {
