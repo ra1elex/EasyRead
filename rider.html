@@ -6,9 +6,66 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Rider</title>
 	<link rel="stylesheet" href="source/css/rider.css">
+
+	<link rel="stylesheet" title="theme" href="rider-theme-dark.css">
+
+	<script src="script/rider.js" defer></script>
+
 	<link rel="stylesheet" title="theme" href="source/css/rider-theme-dark.css">
+
 </head>
+
 <body>
+
+	<header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Читатели</h1>
+            </div>
+            <div class="catalog">
+                <button>Каталог<img src="source/images-svg/open-btn.svg" alt="Каталог"></button>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск..." aria-label="Поиск">
+                <button>Найти</button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="sign-in-page.html" aria-label="Профиль"><img src="source/images-svg/profile.svg" alt="Профиль"></a></li>
+                <li><a href="#" aria-label="Избранное"><img src="source/images-svg/favorite.svg" alt="Избранное"></a>
+                </li>
+                <li><a href="making-orders.html" aria-label="Заказы"><img src="source/images-svg/orders.svg" alt="Заказы"></a></li>
+                <li><a href="book-shop.html" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg" alt="Корзина"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+				<nav id="side-menu">
+					<ul>
+						<li><a href="#">Яркость <img src="static/img/lamp-transformed (1).png" alt="" width="18px"
+									height="auto"></a></li>
+						<div class="slidecontainer">
+							<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+						</div>
+						<li><a href="#">Размер текста <img
+									src="static/img/1b6cd421331fa8402fddb3915d949642-transformed.png" alt=""
+									width="20px" height="auto"></a></li>
+						<div class="slidecontainer">
+							<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+						</div>
+						<div class="theme">
+							<form>
+								<label>
+									<input type="checkbox">
+									Темная тема
+								</label>
+							</form>
+						</div>
+					</ul>
+				</nav>
+			</div>
+
+=======
 	<header class="header-main">
 		<div class="header">
 			<nav class="navbar">
@@ -56,6 +113,7 @@
 					</li>
 				</ul>
 			</nav>
+
 		</div>
 	</header>
 	<hr class="line">
@@ -72,6 +130,14 @@
 	</main>
 	<div class="line-two"></div>
 	<div class="line-three"></div>
+
+	<div class="footer-main">
+</div>
+
+<script src="source/script/login-page.js"></script>
+</body>
+
+
 	<footer class="footer-main">
 		
 		<div class="footer">
@@ -82,5 +148,6 @@
 	<script src="source/script/rider.js"></script>
 	
 </body>
+
 
 </html>
