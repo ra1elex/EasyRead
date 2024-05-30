@@ -1,76 +1,92 @@
-body{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: white;
-    
-    
-}
-.heder-main{
-    background-color: #FCD69C;
+    font-family: 'Patsy Sans', sans-serif;
 }
 
-.heder {
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    background-color: #FCD69C;
+    width: 100%;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
 }
-.logo{
-    display: flex;
-    align-items: flex-start;
-    padding-right: 500px;
-}
-.authentication p{
-    margin: 0;
-    font-size: 16px;
-    margin-top: 4px;
-    text-decoration: none;
-}
-.authentication button{
-    margin-top: 3px;
-}
-
 
 .navbar {
     display: flex;
-    justify-content: center;
     justify-content: space-between;
-    gap: 500px;
-    margin-bottom: 15px;
-    margin-right: 520px;
-    margin-top: 3px;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
 }
 
-.dropbtn {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cover{
+    margin-left: -100px;
+    margin-top: -60px;
+}
+
+
+.catalog {
+    display: flex;
+    align-items: center;
+}
+
+.catalog img {
+    margin-left: 5px;
+}
+
+.catalog button {
+    padding: 5px 10px;
+    background-color: #FF7A00;
+    color: #fff;
+    border: none;
     cursor: pointer;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+
+
+.search-box {
+    display: flex;
+    align-items: center;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+.search-box input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
 }
 
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-
-.dropdown-content a:hover {
-    background-color: #ddd
+.search-box button {
+    padding: 5px 10px;
+    background-color: #FF7A00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -166,25 +182,4 @@ body{
 .line-three {
     margin-top: 70px;
     border-bottom: 4px solid #778899;
-}
-.footer-main{
-    background-color: #FCD69C;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-    gap: 10px;
-}
-
-.footer a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #545f69;
-}
-.theme{
-    text-decoration: none;
-    font-size: 16px;
-    color: white;
 }

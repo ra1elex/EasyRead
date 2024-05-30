@@ -10,26 +10,31 @@
 
 	<script src="script/rider.js" defer></script>
 </head>
-<!--Исправить семантку-->
+
 <body>
-	<div class="heder-main">
-		<div class="heder">
-			<div class="logo">
-				<img src="source/images-svg/Логотип.svg" alt="#">
-			</div>
-			<div class="navbar">
-				<div class="dropdown">
-					<button onclick="myFunction()" class="dropbtn"><img
-							src="static/img/kisspng-hamburger-button-computer-icons-menu-number-list-5b5c089f664156.0146657315327581754189.jpg"
-							width="25px" height="auto" alt="">Главы</button>
-					<div id="myDropdown" class="dropdown-content">
-						<a href="#">Глава 1</a>
-						<a href="#">Глава 2</a>
-						<a href="#">Глава 3</a>
-					</div>
-				</div>
-				<button id="toggle-menu"> <img src="static/img/109596.png" alt="" width="15px"
-						height="auto">Настройки</button>
+	<header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Читатели</h1>
+            </div>
+            <div class="catalog">
+                <button>Каталог<img src="source/images-svg/open-btn.svg" alt="Каталог"></button>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск..." aria-label="Поиск">
+                <button>Найти</button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="sign-in-page.html" aria-label="Профиль"><img src="source/images-svg/profile.svg" alt="Профиль"></a></li>
+                <li><a href="#" aria-label="Избранное"><img src="source/images-svg/favorite.svg" alt="Избранное"></a>
+                </li>
+                <li><a href="making-orders.html" aria-label="Заказы"><img src="source/images-svg/orders.svg" alt="Заказы"></a></li>
+                <li><a href="book-shop.html" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg" alt="Корзина"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
 				<nav id="side-menu">
 					<ul>
 						<li><a href="#">Яркость <img src="static/img/lamp-transformed (1).png" alt="" width="18px"
@@ -54,9 +59,7 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="authentication">
-				<a href="login-page.html"><button><p>Войти|Регистрация</p></button></a>
-			</div>
+
 		</div>
 	</div>
 	<div class="line"></div>
@@ -79,13 +82,10 @@
 	<div class="line-two"></div>
 	<div class="line-three"></div>
 	<div class="footer-main">
-	<div class="footer">
-		<button><a href="#">1</a></button>
-		<button><a href="#">Следущая глава</a></button>
-	</div>
 </div>
 
+<script src="source/script/login-page.js"></script>
 </body>
-<script src="source/script/rider.js"></script>
+
 
 </html>
