@@ -1,6 +1,4 @@
 
-* {
-
 body {
 
     margin: 0;
@@ -96,11 +94,7 @@ body {
 }
 
 
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 1200px;
-}
+
 
 .nav-links {
     list-style: none;
@@ -142,7 +136,7 @@ body {
     color: #fff;
     border: none;
     cursor: pointer;
-
+}
 .catalog img {
     margin-left: 5px;
 }
