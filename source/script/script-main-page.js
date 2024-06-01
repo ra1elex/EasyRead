@@ -1,8 +1,17 @@
-//Получаем бургер
-const menuBurger = document.querySelector(".menu__burger"); 
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
-//Вешаем слушатель событий при его клике - вызываем функцию.
-menuBurger.addEventListener("click", function() {  
-  //Функция добавляет класс или удаляет его. 
-  menuBurger.classList.toggle('active');
-});
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
