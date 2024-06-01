@@ -2,152 +2,89 @@
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Rider</title>
-	<link rel="stylesheet" href="source/css/rider.css">
-
-	<link rel="stylesheet" title="theme" href="rider-theme-dark.css">
-
-	<script src="script/rider.js" defer></script>
-
-	<link rel="stylesheet" title="theme" href="source/css/rider-theme-dark.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rider</title>
+    <link rel="stylesheet" href="source/css/rider.css">
 </head>
 
 <body>
 
-	<header class="header">
+    <header class="header">
         <nav class="navbar">
             <div class="logo">
-                <h1>Читатели</h1>
+                <a href=""><h1>Читатели</h1></a>
             </div>
             <div class="catalog">
-                <button>Каталог<img src="source/images-svg/open-btn.svg" alt="Каталог"></button>
+                <div class="dropdown">
+                    <button class="dropbtn">Каталог<img src="source/images-svg/open-btn.svg" alt="Каталог"></button>
+                    <div class="dropdown-content">
+                        <a href="#"> 1</a>
+                        <a href="#"> 2</a>
+                        <a href="#"> 3</a>
+                    </div>
             </div>
             <div class="search-box">
                 <input type="text" placeholder="Поиск..." aria-label="Поиск">
-                <button>Найти</button>
+                <button aria-label="Найти">Найти</button>
             </div>
             <ul class="nav-links">
                 <li><a href="sign-in-page.html" aria-label="Профиль"><img src="source/images-svg/profile.svg" alt="Профиль"></a></li>
-                <li><a href="#" aria-label="Избранное"><img src="source/images-svg/favorite.svg" alt="Избранное"></a>
-                </li>
+                <li><a href="#" aria-label="Избранное"><img src="source/images-svg/favorite.svg" alt="Избранное"></a></li>
                 <li><a href="making-orders.html" aria-label="Заказы"><img src="source/images-svg/orders.svg" alt="Заказы"></a></li>
-                <li><a href="book-shop.html" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg" alt="Корзина"></a>
+                <li><a href="book-shop.html" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg" alt="Корзина"></a></li>
+            </ul>
+        </nav>
+        <button id="toggle-menu" aria-label="Открыть настройки">
+          Настройки
+        </button>
+        <nav id="side-menu">
+            <ul>
+                <li><a href="#">Яркость <img src="static/img/lamp-transformed (1).png" alt="" width="18px" height="auto"></a></li>
+                <li>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="brightnessRange">
+                    </div>
+                </li>
+                <li><a href="#">Размер текста <img src="static/img/1b6cd421331fa8402fddb3915d949642-transformed.png" alt="" width="20px" height="auto"></a></li>
+                <li>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="textSizeRange">
+                    </div>
+                </li>
+                <li>
+                    <div class="theme">
+                        <label>
+                            <input type="checkbox">
+                            Темная тема
+                        </label>
+                    </div>
                 </li>
             </ul>
         </nav>
     </header>
 
-				<nav id="side-menu">
-					<ul>
-						<li><a href="#">Яркость <img src="static/img/lamp-transformed (1).png" alt="" width="18px"
-									height="auto"></a></li>
-						<div class="slidecontainer">
-							<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-						</div>
-						<li><a href="#">Размер текста <img
-									src="static/img/1b6cd421331fa8402fddb3915d949642-transformed.png" alt=""
-									width="20px" height="auto"></a></li>
-						<div class="slidecontainer">
-							<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-						</div>
-						<div class="theme">
-							<form>
-								<label>
-									<input type="checkbox">
-									Темная тема
-								</label>
-							</form>
-						</div>
-					</ul>
-				</nav>
-			</div>
+    <main class="content">
+        <div class="cover">
+            <img src="source/images-svg/images.png" alt="Book Cover" width="450px" height="auto">
+        </div>
+        <div class="info">
+            <h1><strong>Переосмысление мифов о <br>Геракле Г.Л Олди<br><em>Герой должен быть один</em></strong></h1>
+            <p><strong>Авторы:</strong> Нонна Жирайровна Элязян</p>
+            <p><strong>Год:</strong> 2021 <br> <strong>Язык:</strong> RU</p>
+        </div>
+    </main>
 
-=======
-	<header class="header-main">
-		<div class="header">
-			<nav class="navbar">
-				<div class="logo">
-					<h1>Читатели</h1>
-				</div>
-				<div class="catalog">
-					<button aria-label="Открыть каталог">Каталог<img src="source/images-svg/open-btn.svg" alt=""></button>
-				</div>
-				<div class="search-box">
-					<input type="text" placeholder="Поиск..." aria-label="Поиск">
-					<button aria-label="Найти">Найти</button>
-				</div>
-				<ul class="nav-links">
-					<li><a href="#" aria-label="Профиль"><img src="source/images-svg/profile.svg" alt="Профиль"></a></li>
-					<li><a href="#" aria-label="Избранное"><img src="source/images-svg/favorite.svg" alt="Избранное"></a></li>
-					<li><a href="#" aria-label="Заказы"><img src="source/images-svg/orders.svg" alt="Заказы"></a></li>
-					<li><a href="#" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg" alt="Корзина"></a></li>
-				</ul>
-			</nav>
-			<button id="toggle-menu" aria-label="Открыть настройки">
-				<img src="static/img/109596.png" alt="" width="15px" height="auto"> Настройки
-			</button>
-			<nav id="side-menu">
-				<ul>
-					<li><a href="#">Яркость <img src="static/img/lamp-transformed (1).png" alt="" width="18px" height="auto"></a></li>
-					<li>
-						<div class="slidecontainer">
-							<input type="range" min="1" max="100" value="50" class="slider" id="brightnessRange">
-						</div>
-					</li>
-					<li><a href="#">Размер текста <img src="static/img/1b6cd421331fa8402fddb3915d949642-transformed.png" alt="" width="20px" height="auto"></a></li>
-					<li>
-						<div class="slidecontainer">
-							<input type="range" min="1" max="100" value="50" class="slider" id="textSizeRange">
-						</div>
-					</li>
-					<li>
-						<div class="theme">
-							<label>
-								<input type="checkbox">
-								Темная тема
-							</label>
-						</div>
-					</li>
-				</ul>
-			</nav>
+    <footer class="footer-main">
+        <div class="footer">
+            <button><a href="#">1</a></button>
+            <button><a href="#">Следующая глава</a></button>
+        </div>
+    </footer>
 
-		</div>
-	</header>
-	<hr class="line">
-	<div class="line-four"></div>
-	<main class="content">
-		<div class="cover">
-			<img src="source/images-svg/images.png" alt="Book Cover" width="450px" height="auto">
-		</div>
-		<div class="info">
-			<h1><strong>Переосмысление мифов о <br>Геракле Г.Л Олди<br><em>Герой должен быть один</em></strong></h1>
-			<p><strong>Авторы:</strong> Нонна Жирайровна Элязян</p>
-			<p><strong>Год:</strong> 2021 <br> <strong>Язык:</strong> RU</p>
-		</div>
-	</main>
-	<div class="line-two"></div>
-	<div class="line-three"></div>
+    <script src="source/script/login-page.js"></script>
+    <script src="source/script/rider.js"></script>
 
-	<div class="footer-main">
-</div>
-
-<script src="source/script/login-page.js"></script>
 </body>
-
-
-	<footer class="footer-main">
-		
-		<div class="footer">
-			<button><a href="#">1</a></button>
-			<button><a href="#">Следующая глава</a></button>
-		</div>
-	</footer>
-	<script src="source/script/rider.js"></script>
-	
-</body>
-
 
 </html>
