@@ -1,0 +1,104 @@
+header{
+    background-color: #FCD69C;
+    height: 100px;
+    justify-content: space-around;
+    border: solid;
+}
+header,
+.b{
+    font-size: 30px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+ color: black;
+}
+ 
+.katalog{
+    border-radius: 5px;
+   border-color: orange;
+    color: white;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:30px;
+    width:65px;
+    cursor: pointer;
+}
+.katalog:active{
+   background-color: rgb(255, 187, 62)
+}
+main{
+   
+    margin-left: 200px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    height: 250px;
+    width: 80%;
+    border: solid;
+    border-color: gray;
+    border-radius: 10px;
+}
+main,
+img{
+    display: flex;
+   
+}
+
+button{
+ color: white;
+ background-color: orange;   
+}
+.kolvo{
+    display: block;
+margin: auto;
+font-size: 30px;
+
+    
+}
+.summs{
+display: block;
+margin: auto;
+font-size: 30px;
+}
+.sell{
+    border-color: orange;
+    height:50px;
+    width:100px;
+}
+.ss{
+    height:20px;
+    width:30px;
+    border-color: orange;
+}
+.full-navbar{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.35s;
+}
+.full-navbar:hover{
+    
+    color: white;
+    
+}
+.avtor{
+    padding-left: 20px;
+    cursor: pointer;
+  
+}
+.avtor:hover{
+    color: blue;
+}
+.glavnaya{
+    cursor: pointer;
+    transition: 0.35s;
+    color: black;
+    text-decoration: none;
+}
+.glavnaya:hover{
+    color: white;
+}
