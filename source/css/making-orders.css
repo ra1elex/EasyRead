@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 
-.header {
+header {
     background-color: #FCD69C;
     width: 100%;
     padding: 10px 0;
@@ -119,7 +119,7 @@ height: 33px;
 border-radius: 5px;
 margin-left: 15px;
 }
-.main{
+main{
     margin-right: 150px;
     margin-bottom: 100px;
 }
@@ -191,8 +191,7 @@ border-radius: 5px;
     
 }
 
-
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     background-color: #FCD69C;
@@ -204,7 +203,7 @@ border-radius: 5px;
     margin-bottom: -100px;
 }
 
-.footer p {
+footer p {
     color: white;
     text-decoration: none;
     margin-left: 20px;
