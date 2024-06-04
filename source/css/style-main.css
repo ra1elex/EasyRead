@@ -146,7 +146,7 @@ header {
 
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     background-color: #FCD69C;
@@ -156,7 +156,7 @@ header {
     bottom: 0;
 }
 
-.footer p {
+footer p {
     color: white;
     text-decoration: none;
     margin-left: 20px;

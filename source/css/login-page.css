@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 
-.header {
+header {
     background-color: #FCD69C;
     width: 100%;
     padding: 10px 0;
@@ -169,7 +169,7 @@ form p {
     margin-top: 10px;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     background-color: #FCD69C;
@@ -180,7 +180,7 @@ form p {
     bottom: 0;
 }
 
-.footer p {
+footer p {
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin-left: 20px;

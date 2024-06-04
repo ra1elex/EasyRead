@@ -16,7 +16,7 @@ body {
     height: 100vh;
 }
 
-.header {
+header {
     background-color: #FCD69C;
     width: 100%;
     padding: 10px 0;

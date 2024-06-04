@@ -14,7 +14,7 @@ body {
 }
 
 
-.header {
+header {
     background-color: #FCD69C;
     width: 100%;
     padding: 10px 0;
@@ -137,7 +137,7 @@ body {
 
 
 
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     background-color: #FCD69C;
@@ -149,7 +149,7 @@ body {
     margin-bottom: -100px;
 }
 
-.footer p {
+footer p {
     color: white;
     text-decoration: none;
     margin-left: 10px;
