@@ -13,6 +13,9 @@ body {
     height: 100vh;
 }
 
+
+header {
+
 .logo a {
     text-decoration: none;
     color: #333;
@@ -29,6 +32,7 @@ body {
 
 
 .header {
+
     background-color: #FCD69C;
     width: 100%;
     padding: 10px 0;
