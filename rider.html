@@ -4,16 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rider</title>
+    <title>Читатели</title>
     <link rel="stylesheet" href="source/css/rider.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header>
         <nav class="navbar">
             <div class="logo">
-                <a href=""><h1>Читатели</h1></a>
+                <a href="main.html"><h1>Читатели</h1></a>
             </div>
             <div class="catalog">
                 <div class="dropdown">
@@ -24,10 +25,10 @@
                         <a href="#"> 3</a>
                     </div>
                 </div>
-                <div class="search-box">
-                    <input type="text" placeholder="Поиск..." aria-label="Поиск">
-                    <button aria-label="Найти">Найти</button>
-                </div>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск..." aria-label="Поиск">
+                <button>Найти</button>
             </div>
             <ul class="nav-links">
                 <li><a href="sign-in-page.html" aria-label="Профиль"><img src="source/images-svg/profile.svg" alt="Профиль"></a></li>
@@ -36,58 +37,85 @@
                 <li><a href="book-shop.html" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg" alt="Корзина"></a></li>
             </ul>
         </nav>
-        <button id="toggle-menu" aria-label="Открыть настройки">
-          Настройки
-        </button>
-        <nav id="side-menu">
-            <ul>
-                <li><a href="#">Яркость <img src="static/img/lamp-transformed (1).png" alt="" width="18px" height="auto"></a></li>
-                <li>
-                    <div class="slidecontainer">
-                        <input type="range" min="1" max="100" value="50" class="slider" id="brightnessRange">
-                    </div>
-                </li>
-                <li><a href="#">Размер текста <img src="static/img/1b6cd421331fa8402fddb3915d949642-transformed.png" alt="" width="20px" height="auto"></a></li>
-                <li>
-                    <div class="slidecontainer">
-                        <input type="range" min="1" max="100" value="50" class="slider" id="textSizeRange">
-                    </div>
-                </li>
-                <li>
-                    <div class="theme">
-                        <label>
-                            <input type="checkbox">
-                            Темная тема
-                        </label>
-                    </div>
-                </li>
-            </ul>
-        </nav>
     </header>
+
+    <button id="toggle-menu" aria-label="Открыть настройки">Настройки</button>
+    <nav id="side-menu">
+        <ul>
+            <li><a href="#">Яркость</a></li>
+            <li>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="brightnessRange">
+                </div>
+            </li>
+            <li><a href="#">Размер текста</a></li>
+            <li>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" class="slider" id="textSizeRange">
+                </div>
+            </li>
+            <li>
+                <div class="theme">
+                    <label>
+                        <input type="checkbox" id="darkModeToggle">
+                        Темная тема
+                    </label>
+                </div>
+            </li>
+        </ul>
+    </nav>
 
     <main>
         <section class="content">
-            <article class="cover">
-                <img src="source/images-svg/images.png" alt="Book Cover" width="450px" height="auto">
-            </article>
-            <aside class="info">
-                <h1><strong>Переосмысление мифов о <br>Геракле Г.Л Олди<br><em>Герой должен быть один</em></strong></h1>
-                <p><strong>Авторы:</strong> Нонна Жирайровна Элязян</p>
-                <p><strong>Год:</strong> 2021 <br> <strong>Язык:</strong> RU</p>
-            </aside>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="book-page">
+                            <h2>Глава 1</h2>
+                            <p> Eh bien, mon prince. Gênes et Lucques ne sont plus que des apanages, des поместья, de la famille Buonaparte. Non, je vous préviens que si vous ne me dites pas que nous avons la guerre, si vous vous permettez encore de pallier toutes les infamies, toutes les atrocités de cet Antichrist (ma parole, j'y crois) — je ne vous connais plus, vous n'êtes plus mon ami, vous n'êtes plus мой верный раб, comme vous dites 1. Ну, здравствуйте, здравствуйте. Je vois que je vous fais peur 2, садитесь и рассказывайте.
+                                Так говорила в июле 1805 года известная Анна Павловна Шерер, фрейлина и приближенная императрицы Марии Феодоровны, встречая важного и чиновного князя Василия, первого приехавшего на ее вечер. Анна Павловна кашляла несколько дней, у нее был грипп, как она говорила (грипп был тогда новое слово, употреблявшееся только редкими). В записочках, разосланных утром с красным лакеем, было написано без различия во всех:</p>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="book-page">
+                            <h2>Глава 2</h2>
+                            <p>С Eh bien, mon prince. Gênes et Lucques ne sont plus que des apanages, des поместья, de la famille Buonaparte. Non, je vous préviens que si vous ne me dites pas que nous avons la guerre, si vous vous permettez encore de pallier toutes les infamies, toutes les atrocités de cet Antichrist (ma parole, j'y crois) — je ne vous connais plus, vous n'êtes plus mon ami, vous n'êtes plus мой верный раб, comme vous dites 1. Ну, здравствуйте, здравствуйте. Je vois que je vous fais peur 2, садитесь и рассказывайте.
+                                Так говорила в июле 1805 года известная Анна Павловна Шерер, фрейлина и приближенная императрицы Марии Феодоровны, встречая важного и чиновного князя Василия, первого приехавшего на ее вечер. Анна Павловна кашляла несколько дней, у нее был грипп, как она говорила (грипп был тогда новое слово, употреблявшееся только редкими). В записочках, разосланных утром с красным лакеем, было написано без различия во всех:</p>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="book-page">
+                            <h2>Глава 3</h2>
+                            <p> Eh bien, mon prince. Gênes et Lucques ne sont plus que des apanages, des поместья, de la famille Buonaparte. Non, je vous préviens que si vous ne me dites pas que nous avons la guerre, si vous vous permettez encore de pallier toutes les infamies, toutes les atrocités de cet Antichrist (ma parole, j'y crois) — je ne vous connais plus, vous n'êtes plus mon ami, vous n'êtes plus мой верный раб, comme vous dites 1. Ну, здравствуйте, здравствуйте. Je vois que je vous fais peur 2, садитесь и рассказывайте.
+                                Так говорила в июле 1805 года известная Анна Павловна Шерер, фрейлина и приближенная императрицы Марии Феодоровны, встречая важного и чиновного князя Василия, первого приехавшего на ее вечер. Анна Павловна кашляла несколько дней, у нее был грипп, как она говорила (грипп был тогда новое слово, употреблявшееся только редкими). В записочках, разосланных утром с красным лакеем, было написано без различия во всех:</p>
+                        </article>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
         </section>
     </main>
 
-    <footer class="footer-main">
-        <div class="footer">
-            <button><a href="#">1</a></button>
-            <button><a href="#">Следующая глава</a></button>
+    <footer>
+        <div class="footer-left">
+            <p>8 (800) 500-05-22 <br>Контактный центр</p>
+        </div>
+        <div class="footer-center">
+            <p>г. Москва, ул. Тимура Фрунзе, дом 11 <br>futureskills@mail.ru</p>
+        </div>
+        <div class="footer-icon-right">
+            <a href="#" class="icon" aria-label="VK"><i class="fa-brands fa-vk"></i></a>
+            <a href="#" class="icon" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
         </div>
     </footer>
 
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="source/script/rider.js"></script>
-
 </body>
 
 </html>
