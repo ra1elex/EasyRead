@@ -4,87 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rider</title>
+    <title>Читатели</title>
     <link rel="stylesheet" href="source/css/rider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
 
-    <header class="header">
+    <header>
         <nav class="navbar">
             <div class="logo">
-                <a href=""><h1>Читатели</h1></a>
+                <a href="main.html">
+                    <h1>Читатели</h1>
+                </a>
             </div>
             <div class="catalog">
                 <div class="dropdown">
                     <button class="dropbtn">Каталог<img src="source/images-svg/open-btn.svg" alt="Каталог"></button>
                     <div class="dropdown-content">
-                        <a href="#"> 1</a>
-                        <a href="#"> 2</a>
-                        <a href="#"> 3</a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
                     </div>
+                </div>
             </div>
             <div class="search-box">
                 <input type="text" placeholder="Поиск..." aria-label="Поиск">
-                <button aria-label="Найти">Найти</button>
+                <button>Найти</button>
             </div>
-            <ul class="nav-links">
-                <li><a href="sign-in-page.html" aria-label="Профиль"><img src="source/images-svg/profile.svg" alt="Профиль"></a></li>
-                <li><a href="#" aria-label="Избранное"><img src="source/images-svg/favorite.svg" alt="Избранное"></a></li>
-                <li><a href="making-orders.html" aria-label="Заказы"><img src="source/images-svg/orders.svg" alt="Заказы"></a></li>
-                <li><a href="book-shop.html" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg" alt="Корзина"></a></li>
-            </ul>
+            <div class="search-box">
+                <ul class="nav-links">
+                    <li><a href="sign-in-page.html" aria-label="Профиль"><img src="source/images-svg/profile.svg"
+                                alt="Профиль"></a></li>
+                    <li><a href="#" aria-label="Избранное"><img src="source/images-svg/favorite.svg"
+                                alt="Избранное"></a></li>
+                    <li><a href="making-orders.html" aria-label="Заказы"><img src="source/images-svg/orders.svg"
+                                alt="Заказы"></a></li>
+                    <li><a href="book-shop.html" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg"
+                                alt="Корзина"></a></li>
+                </ul>
+            </div>
         </nav>
-        <button id="toggle-menu" aria-label="Открыть настройки">
-          Настройки
-        </button>
+    </header>
+    <main>
+        <button id="toggle-menu" aria-label="Открыть настройки">Настройки</button>
         <nav id="side-menu">
             <ul>
-                <li><a href="#">Яркость <img src="static/img/lamp-transformed (1).png" alt="" width="18px" height="auto"></a></li>
+                <li><a href="#">Яркость</a></li>
                 <li>
                     <div class="slidecontainer">
                         <input type="range" min="1" max="100" value="50" class="slider" id="brightnessRange">
                     </div>
                 </li>
-                <li><a href="#">Размер текста <img src="static/img/1b6cd421331fa8402fddb3915d949642-transformed.png" alt="" width="20px" height="auto"></a></li>
+                <li><a href="#">Размер текста</a></li>
                 <li>
                     <div class="slidecontainer">
-                        <input type="range" min="1" max="100" value="50" class="slider" id="textSizeRange">
+                        <input type="range" min="12" max="36" value="18" class="slider" id="textSizeRange">
                     </div>
                 </li>
                 <li>
                     <div class="theme">
                         <label>
-                            <input type="checkbox">
+                            <input type="checkbox" id="darkModeToggle">
                             Темная тема
                         </label>
                     </div>
                 </li>
             </ul>
         </nav>
-    </header>
-
-    <main class="content">
-        <div class="cover">
-            <img src="source/images-svg/images.png" alt="Book Cover" width="450px" height="auto">
-        </div>
-        <div class="info">
-            <h1><strong>Переосмысление мифов о <br>Геракле Г.Л Олди<br><em>Герой должен быть один</em></strong></h1>
-            <p><strong>Авторы:</strong> Нонна Жирайровна Элязян</p>
-            <p><strong>Год:</strong> 2021 <br> <strong>Язык:</strong> RU</p>
-        </div>
+        <section class="content">
+            <div class="reader-container" id="reader-container">
+                <button class="nav-button prev-button" onclick="prevPage()">&#10094;</button>
+                <div id="book-content"></div>
+                <button class="nav-button next-button" onclick="nextPage()">&#10095;</button>
+            </div>
+        </section>
     </main>
+    <footer>
 
-    <footer class="footer-main">
-        <div class="footer">
-            <button><a href="#">1</a></button>
-            <button><a href="#">Следующая глава</a></button>
-        </div>
+            <div class="footer-left">
+                <p>8 (800) 500-05-22 <br>Контактный центр</p>
+            </div>
+            <div class="footer-center">
+                <p>г. Москва, ул. Тимура Фрунзе, дом 11 <br>futureskills@mail.ru</p>
+            </div>
+            <div class="footer-icon-right">
+                <a href="#" class="icon" aria-label="VK"><i class="fa-brands fa-vk"></i></a>
+                <a href="#" class="icon" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+
     </footer>
-
-    <script src="source/script/login-page.js"></script>
     <script src="source/script/rider.js"></script>
-
 </body>
 
 </html>
