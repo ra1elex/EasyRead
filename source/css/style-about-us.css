@@ -14,14 +14,18 @@ body {
 }
 
 
-.header {
+header {
     background-color: #FCD69C;
     width: 100%;
     padding: 10px 0;
     display: flex;
     justify-content: center;
 
-
+}
+header>.navbar>.logo>a{
+    text-decoration: none;
+     color: black;
+}
 .navbar {
     background-color: #FCD69C;
 
@@ -73,14 +77,15 @@ body {
 }
 
 .search-box input {
-    padding: 5px;
+    padding: 12px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-right: 10px;
 }
 
 .search-box button {
-    padding: 5px 10px;
+    padding: 12px 15px;
+    border-radius: 5px;
     background-color: #FF7A00;
     color: #fff;
     border: none;
@@ -137,7 +142,7 @@ body {
 
 
 
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     background-color: #FCD69C;
@@ -149,7 +154,7 @@ body {
     margin-bottom: -100px;
 }
 
-.footer p {
+footer p {
     color: white;
     text-decoration: none;
     margin-left: 10px;

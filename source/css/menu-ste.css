@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 
-.header {
+header {
     background-color: #FCD69C;
     width: 100%;
     padding: 10px 0;
@@ -54,7 +54,8 @@ body {
 }
 
 .catalog button {
-    padding: 5px 10px;
+    padding: 12px 15px;
+    border-radius: 5px;
     background-color: #FF7A00;
     color: #fff;
     border: none;
@@ -67,14 +68,15 @@ body {
 }
 
 .search-box input {
-    padding: 5px;
+    padding: 12px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-right: 10px;
 }
 
 .search-box button {
-    padding: 5px 10px;
+    padding: 12px 15px;
+    border-radius: 5px;
     background-color: #FF7A00;
     color: #fff;
     border: none;
@@ -123,7 +125,7 @@ main {
     color: #007bff;
     font-weight: bold;
 }
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     background-color: #FCD69C;
@@ -133,7 +135,7 @@ main {
     bottom: 0;
 }
 
-.footer p {
+footer p {
     color: white;
     text-decoration: none;
     margin-left: 20px;
