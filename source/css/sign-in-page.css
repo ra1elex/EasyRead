@@ -14,8 +14,13 @@ body {
 }
 
 
-header 
-
+header {
+    background-color: #FCD69C;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
 .logo a {
     text-decoration: none;
     color: #333;
@@ -30,15 +35,6 @@ header
     transform: scale(1.1);
 }
 
-
-.header {
-
-    background-color: #FCD69C;
-    width: 100%;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
-}
 
 .navbar {
     display: flex;
@@ -141,23 +137,22 @@ header
 }
 
 .search-box input {
-<<<<<<< HEAD
     padding: 12px;
-=======
+
     padding: 10px;
->>>>>>> 481980430fd8a6c392e481468bdfee749310fc6a
+
     border: none;
     border-radius: 5px;
     margin-right: 10px;
 }
 
 .search-box button {
-<<<<<<< HEAD
+
     padding: 12px 15px;
     border-radius: 5px;
-=======
+
     padding: 10px 10px;
->>>>>>> 481980430fd8a6c392e481468bdfee749310fc6a
+
     background-color: #FF7A00;
     color: #fff;
     border: none;
@@ -298,15 +293,11 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
-<<<<<<< HEAD
   }
   
-  footer p {
-=======
-}
+
 
 .footer p {
->>>>>>> 481980430fd8a6c392e481468bdfee749310fc6a
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin-left: 20px;
