@@ -16,9 +16,18 @@ body {
 
 
 
+
 header 
 
-.logo a {
+
+header {
+    background-color: #FCD69C;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
 
 .logo a{
 
@@ -34,6 +43,7 @@ header
     transform: scale(1.1);
 }
 
+
 header {
     background-color: #FCD69C;
     width: 100%;
@@ -41,6 +51,7 @@ header {
     display: flex;
     justify-content: center;
 }
+
 
 .navbar {
     display: flex;
@@ -137,9 +148,11 @@ header {
 
 .search-box input {
 
+
     padding: 12px;
 
     padding: 5px;
+    padding: 12px;
 
     padding: 10px;
 
@@ -154,6 +167,7 @@ header {
     border-radius: 5px;
 
     padding: 5px 10px;
+
 
     padding: 10px 10px;
 
@@ -299,10 +313,15 @@ footer {
     position: absolute;
     bottom: 0;
 
+
   }
   
   
-  .footer p {
+
+  
+
+
+.footer p {
 
     color: rgb(0, 0, 0);
     text-decoration: none;
