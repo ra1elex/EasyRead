@@ -179,14 +179,22 @@ header {
     margin-left: 320px;
     margin-top: -170px;
 }
+
 .div-product img{
     border-radius: 5px;
 }
+
+
+
 .user-profile-info h3{
     border: 2px black solid;
     width: 30px;
     height: 25px;
+
     padding-left: 7px;
+
+    padding-left: 5px;
+
     margin-left: 170px;
     margin-top: -20px;
 }
