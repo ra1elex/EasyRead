@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Patsy Sans', sans-serif;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+
+header {
+    background-color: #FCD69C;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+}
+header>.navbar>.logo>a{
+    text-decoration: none;
+     color: black;
+}
+.navbar {
+    background-color: #FCD69C;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+}
+
+.catalog img {
+    margin-left: 5px;
+}
+
+.catalog button {
+    padding: 5px 10px;
+    background-color: #FF7A00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-box button {
+    padding: 12px 15px;
+    border-radius: 5px;
+    background-color: #FF7A00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.main-section{
+    position: absolute;
+    color: aliceblue;
+    margin-left: -30px;
+}
+.main-section>h4{
+
+    margin-top: 100px;
+}
+
+.main-img{
+    margin-left: -330px;
+    height: 250px;
+    width: 680px;
+    position: absolute;
+    margin-top: 20px;
+    
+}
+
+.main-section>h3{
+    margin-left: -250px;
+    margin-top: 10px;
+}
+.main-section>h1{
+    margin-top: 30px;
+    margin-left: -290px
+}
+.section{
+    
+    margin-top: 300px;
+    margin-left: -280px;
+}
+.section-text{
+    margin-right: 120px;
+}
+.text{
+    float: left;
+    margin-left: 600px;
+    margin-top: -300px;
+}
+.main-section-text>h2{
+    margin-bottom: 50px;
+    color: #FF7A00;
+}
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCD69C;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -100px;
+}
+
+footer p {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-icon a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+
+

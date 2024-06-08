@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="source\css\login-page.css">
+    <title>Log in</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+
+
+                <a href="main.html" style="text-decoration: none; color: black;">
+
+                <a href="main.html"><h1>Читатели</h1></a>
+
+
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href=""><h1>Читатели</h1></a>
+
+                <a href="main.html" style="text-decoration: none; color: black;">
+
+            </div>
+            <div class="catalog">
+                <div class="dropdown">
+                    <button class="dropbtn">Каталог<img src="source/images-svg/open-btn.svg" alt="Каталог"></button>
+                    <div class="dropdown-content">
+                        <a href="#"> 1</a>
+                        <a href="#"> 2</a>
+                        <a href="#"> 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск..." aria-label="Поиск">
+                <button>Найти</button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" aria-label="Профиль"><img src="source/images-svg/profile.svg" alt="Профиль"></a></li>
+                <li><a href="#" aria-label="Избранное"><img src="source/images-svg/favorite.svg" alt="Избранное"></a>
+
+
+                <li><a href="making-orders.html" aria-label="Заказы"><img src="source/images-svg/orders.svg"
+                            alt="Заказы"></a></li>
+                <li><a href="#" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg" alt="Корзина"></a>
+
+                </li>
+                <li><a href="making-orders.html" aria-label="Заказы"><img src="source/images-svg/orders.svg" alt="Заказы"></a></li>
+                <li><a href="book-shop.html" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg" alt="Корзина"></a>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="form-container sign-up">
+            <form id="loginForm" aria-label="Форма входа">
+                <h2>Регистрация</h2>
+
+                <div class="social-icons">
+                    <a href="#" class="icon" aria-label="Sign in with Google"><i class="fa-brands fa-google"></i></a>
+                    <a href="#" class="icon" aria-label="Sign in with VK"><i class="fa-brands fa-vk"></i></a>
+                    <a href="#" class="icon" aria-label="Sign in with Discord"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#" class="icon" aria-label="Sign in with Yandex"><i class="fa-brands fa-yandex"></i></a>
+                </div>
+                <input type="text" id="username" placeholder="Логин" aria-label="Логин">
+                <input type="password" id="password" placeholder="Почта" aria-label="Почта">
+                <input type="password" id="password" placeholder="Пароль" aria-label="Пароль">
+                <input type="password" id="password" placeholder="Повторите пароль" aria-label="Повторите пароль">
+                <a href="sign-in-page.html">
+                    <p>Есть аккаунт?Войти</p>
+                </a>
+                <button type="submit">Зарегистрироваться</button>
+                <div class="error" id="error"></div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-left">
+            <p>8 (800) 500-05-22 <br>Контактный центр</p>
+        </div>
+        <div class="footer-center">
+            <p>г. Москва, ул. Тимура Фрунзе, дом 11 <br>futureskills@mail.ru</p>
+        </div>
+        <div class="footer-icon-right">
+            <a href="#" class="icon" aria-label="VK"><i class="fa-brands fa-vk"></i></a>
+            <a href="#" class="icon" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+    </footer>
+    <script src="source/script/login-page.js"></script>
+</body>
+
+</html>
