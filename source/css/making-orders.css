@@ -79,62 +79,69 @@ header {
     margin-right: 222px;
     margin-bottom: 13px;
 }
-.div-content {
+
+.div-content input{
     border: 2px black solid;
     width: 487px;
     height: 46px;
-    padding-top: 10px;
-    padding-left: 15px;
 }
 .div-content h3 {
-    margin-top: 50px;
-    margin-left: -15px;
+    margin-top: 30px;
+    margin-left: 0px;
 }
-.div-main-section {
+.div-main-section input{
     border: 2px black solid;
-    margin-top: 70px;
+    margin-top: 40px;
     width: 210px;
     height: 46px;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-left: 15px;
 }
 .div-section-main {
+    margin-top: 20px;
+    
+}
+.div-section-main input{
     border: 2px black solid;
     width: 485px;
-    margin-top: 20px;
     height: 46px;
-    padding-left: 15px;
-    padding-top: 10px;
+    padding: 15px;
 }
-.section-content {
+.section-content{
+    margin-top: -59px;
+    padding: 15px;
+}
+.section-content input{
     border: 2px black solid;
-    margin-left: 275px;
-    margin-top: -46px;
+    margin-left: 260px;
     width: 210px;
     height: 46px;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding: 15px;
 }
 .section-div {
-    border: 2px black solid;
-    margin-top: 20px;
-    height: 46px;
-    width: 210px;
-    padding-left: 15px;
-    padding-top: 10px;
+    margin-top: 30px;
 }
+.section-div input{
+    border: 2px black solid;
+    width: 210px;
+    height: 46px;
+    padding: 15px;
+    
+}
+
 .section-div h3 {
-    padding-top: 50px;
-    margin-left: -15px;
+    padding-top: 30px;
+    margin-bottom: 20px;
 }
 .section-content-div {
+    margin-top: -115px;
+}
+.section-content-div input{
     border: 2px black solid;
-    margin-top: -45px;
-    margin-left: 275px;
     width: 210px;
     height: 46px;
-    padding-left: 15px;
-    padding-top: 10px;
+    margin-left: 270px;
+    padding: 15px;
 }
 .container {
     border: 2px black solid;
@@ -156,7 +163,7 @@ header {
 
 .section-product{
     margin-left: 400px;
-    margin-top: -440px;
+    margin-top: -470px;
     border: 2px black solid;
     width: 428px;
     height: 480px;
