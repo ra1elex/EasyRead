@@ -13,7 +13,15 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+
+
+header 
+
+.logo a {
+
 .logo a{
+
     text-decoration: none;
     color: #333;
 }
@@ -82,7 +90,8 @@ header {
 }
 
 .catalog button {
-    padding: 5px 10px;
+    padding: 12px 15px;
+    border-radius: 5px;
     background-color: #FF7A00;
     color: #fff;
     border: none;
@@ -127,16 +136,27 @@ header {
 }
 
 .search-box input {
+
+    padding: 12px;
+
     padding: 5px;
+
     padding: 10px;
+
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-right: 10px;
 }
 
 .search-box button {
+
+    padding: 12px 15px;
+    border-radius: 5px;
+
     padding: 5px 10px;
+
     padding: 10px 10px;
+
     background-color: #FF7A00;
     color: #fff;
     border: none;
@@ -278,9 +298,12 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
+
   }
   
+  
   .footer p {
+
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin-left: 20px;

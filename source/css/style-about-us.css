@@ -22,6 +22,10 @@ header {
     justify-content: center;
 
 }
+header>.navbar>.logo>a{
+    text-decoration: none;
+     color: black;
+}
 .navbar {
     background-color: #FCD69C;
 
@@ -73,14 +77,15 @@ header {
 }
 
 .search-box input {
-    padding: 5px;
+    padding: 12px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-right: 10px;
 }
 
 .search-box button {
-    padding: 5px 10px;
+    padding: 12px 15px;
+    border-radius: 5px;
     background-color: #FF7A00;
     color: #fff;
     border: none;
