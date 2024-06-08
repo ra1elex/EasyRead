@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Оформления заказов</title>
     <link rel="stylesheet" href="source\css\making-orders.css">
 </head>
-
 <body>
-    
     <header>
         <nav class="navbar">
             <div class="logo">
                 <a href="main.html" style="text-decoration: none; color: black;">
-
                     <h1>Читатели</h1>
                 </a>
             </div>
@@ -25,55 +22,90 @@
                 <button>Найти</button>
             </div>
             <ul class="nav-links">
-                <li><a href="sign-in-page.html" aria-label="Профиль"><img src="source/images-svg/profile.svg" alt="Профиль"></a></li>
-                <li><a href="#" aria-label="Избранное"><img src="source/images-svg/favorite.svg" alt="Избранное"></a>
+                <li><a href="sign-in-page.html" aria-label="Профиль"><img src="source/images-svg/profile.svg"
+                            alt="Профиль"></a></li>
+                <li><a href="favourites.html" aria-label="Избранное"><img src="source/images-svg/favorite.svg" alt="Избранное"></a>
                 </li>
-                <li><a href="making-orders.html" aria-label="Заказы"><img src="source/images-svg/orders.svg" alt="Заказы"></a></li>
+                <li><a href="making-orders.html" aria-label="Заказы"><img src="source/images-svg/orders.svg"
+                            alt="Заказы"></a></li>
                 <li><a href="#" aria-label="Корзина"><img src="source/images-svg/shopping-cart.svg" alt="Корзина"></a>
                 </li>
             </ul>
         </nav>
     </header>
-
     <main>
-            <section class="section">
-                <h4>Выберете адрес доставки</h4>
-                <div class="content-section">
-                    <h4>Напишите адрес</h4>
+        <section class="main-section">
+            <div class="div-section">
+                <h3>1.Контакты</h3>
+            </div>
+            <div class="div-content">
+                <input type="text" placeholder="Введите адрес электронной почты " aria-label="Адрес">
+                <h3>2.Адрес доставки</h3>
+            </div>
+            <div class="div-main-section">
+                <input type="text" placeholder="Введите свое имя" aria-label="Имя">
+            </div>
+            <div class="section-content">
+                <input type="text" placeholder="Введите номер телефона" aria-label="Телефон">
+            </div>
+            <div class="div-section-main">
+                <input type="text" placeholder="Введите адрес" aria-label="адрес">
+            </div>
+            <div class="section-div">
+                <input type="text" placeholder="Введите город" aria-label="город">
+                <h3>3.Способ оплаты</h3>
+            </div>
+            <div class="section-content-div">
+                <input type="text" placeholder="Введите почтовый индекс" aria-label="Почта">
+            </div>
+            <div class="container">
+                <p>При получении</p>
+                <div class="elipse">
                 </div>
-            </section>     
-            <section class="content">
-                <p>Выберите способ оплаты</p>
-                
-                    <button class="button">
-                        <p>Тинькофф банк</p>
-                    </button>
-                    <button class="button-content">
-                        <p>Сбербанк</p>
-                    </button>
-                
-            </section>
-
-            <section class="section-content">
-                <p>Оплата:</p>
-                
-                    <button class="button-section">
-                        <p>Сразу</p>
-                    </button>
-                    <button class="full-button">
-                        <p>При получении</p>
-                    </button>
-            </section>
-            <section class="main-section">
-                <p>Итого:</p>
-                <h4>1 товар на сумму:</h4>
-                <h4>Доставка:</h4>
-                <p>Бесплатно</p>
-            </section>
+            </div>
+            <div class="div-container">
+                <p>Картой онлайн</p>
+                <div class="div-elipse">
+                </div>
+            </div>
+        </section>
+        <section class="section-product">
+            <div class="div-product">
+                <img src="https://bltlib.ru/wp-content/uploads/2020/06/Повести-Белкина.jpg" width="150px" alt="">
+                <h4><strong>651</strong></h4>
+            </div>
+            <div class="user-profile-info">
+                <h3>1</h3>
+                <hr width="350" size="1" color="black" />
+            </div>
+            <div class="div-user-info">
+                <p><strong>1 товар на сумму:</strong></p>
+                <h4><strong>651 Рублей</strong></h4>
+            </div>
+            <div class="section-user">
+                <p><strong>Доставка:</strong></p>
+                <h4><strong>Бесплатно</strong></h4>
+                <hr width="350" size="1" color="black" />
+            </div>
+            <div class="div-section-user">
+                <p><strong>Итого:</strong></p>
+                <h4><strong>651 рублей</strong></h4>
+            </div>
+        </section>
+        <section class="section-button">
+            <div class="div-section-button">
+                <button>
+                    <h3>Купить</h3>
+                </button>
+            </div>
+        </section>
     </main>
     <footer>
         <div>
             <p>8 (800) 500-05-22 <br>Контактный центр</p>
+        </div>
+        <div class="footer-center">
+            <p>г. Москва, ул. Тимура Фрунзе, дом 11 <br>futureskills@mail.ru</p>
         </div>
         <div class="footer-icon">
             <a href="#" class="icon" aria-label="VK"><i class="fa-brands fa-vk"></i></a>
