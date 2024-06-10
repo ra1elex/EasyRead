@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <link rel="stylesheet" href="../static/css/basket.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Корзина</title>
+    <link rel="stylesheet" href="/static/css/basket.css">
 </head>
-<body>
-        <header>
-            <a href="#" class="glavnaya">Читатели</a>
-           <button class="katalog">
-             Каталог
-           </button>
-            <label>
-                <input type="search" placeholder="Поиск">
-            </label>
 
-            <a href="#" class="full-navbar">Войти</a>
-           
-           
-            <a href="#" class="full-navbar">Избранное</a>
-           
-           
-            <a href="#" class="full-navbar">Заказы</a>
-           
-           
-            <a href="#" class="full-navbar">Корзина</a>
-           
-        </header>
-        <main>
-            <img src="/static/images-png/book1.png" alt="нет">
-            <p>Подарок на Новый год под ёлку от Маши Рупасовой.</p>
-            <br>
-            <p class="avtor">Маша Рупасова</p>
-            <div class="kolvo">
-            <button class="ss">
-                -
-            </button>
-            <p>1</p>
-            <button class="ss">+</button>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/" style="text-decoration: none; color: black;">
+                    <h1>Читатели</h1>
+                </a>
+            </div>
+            <div class="catalog">
+                <a href="liter-list"> Каталог<img src="/static/images-svg/open-btn.svg" alt="Каталог"></a>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск..." aria-label="Поиск">
+                <button>Найти</button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="sign-up" aria-label="Профиль"><img src="/static/images-svg/profile.svg"
+                            alt="Профиль"></a></li>
+                <li><a href="favourites" aria-label="Избранное"><img src="/static/images-svg/favorite.svg" alt="Избранное"></a>
+                </li>
+                <li><a href="make-order" aria-label="Заказы"><img src="/static/images-svg/orders.svg"
+                            alt="Заказы"></a></li>
+                <li><a href="basket" aria-label="Корзина"><img src="/static/images-svg/shopping-cart.svg" alt="Корзина"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section  class="section">
+       <img src="/static/images-png/book1.png" alt="нет">
+       <p>Подарок на Новый год под ёлку от Маши Рупасовой.</p>
+       <p>Маша Рупасова</p>
+       <div class="kolvo">
+        <button id="substract">-</button>
+        <span id="result">1</span>
+        <button id="add">+</button  >
+       </div>
+       <div class="sell">
+       <h2>651 руб</h2>
+       <button style="cursor: pointer;">Купить</button>
+    </div>
+    </section>
+
+
+</main>
+   <footer>
+        <div>
+            <p>8 (800) 500-05-22 <br>Контактный центр</p>
         </div>
-        
-    <div class="summs">
-            <p>651 руб</p>
-            <button class="sell">Купить</button>
+        <div class="footer-center">
+            <p>г. Москва, ул. Тимура Фрунзе, дом 11 <br>futureskills@mail.ru</p>
         </div>
-        </main>
-        <footer>
-            
-        </footer>
+        <div class="footer-icon">
+            <a href="#" class="icon" aria-label="VK"><i class="fa-brands fa-vk"></i></a>
+            <a href="#" class="icon" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+    </footer>
+
+    <script src="/script/basket.js"></script>
 </body>
+
 </html>

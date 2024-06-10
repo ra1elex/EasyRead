@@ -5,32 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
-    <link rel="stylesheet" href="static\css\style-main.css">
+    <link rel="stylesheet" href="/static/css/style-main.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar">
             <div class="logo">
-                <a href="main.html" style="text-decoration: none; color: black;">
+                <a href="/" style="text-decoration: none; color: black;">
                     <h1>Читатели</h1>
                 </a>
             </div>
             <div class="catalog">
-                <button>Каталог<img src="static/images-svg/open-btn.svg" alt="Каталог"></button>
+                <a href="liter-list"> Каталог<img src="/static/images-svg/open-btn.svg" alt="Каталог"></a>
+                
             </div>
             <div class="search-box">
                 <input type="text" placeholder="Поиск..." aria-label="Поиск">
                 <button>Найти</button>
             </div>
             <ul class="nav-links">
-                <li><a href="sign-in-page.html" aria-label="Профиль"><img src="static/images-svg/profile.svg"
+                <li><a href="sign-up" aria-label="Профиль"><img src="/static/images-svg/profile.svg"
                             alt="Профиль"></a></li>
-                <li><a href="#" aria-label="Избранное"><img src="static/images-svg/favorite.svg" alt="Избранное"></a>
+                <li><a href="favourites" aria-label="Избранное"><img src="/static/images-svg/favorite.svg" alt="Избранное"></a>
                 </li>
-                <li><a href="making-orders.html" aria-label="Заказы"><img src="static/images-svg/orders.svg"
+                <li><a href="make-order" aria-label="Заказы"><img src="/static/images-svg/orders.svg"
                             alt="Заказы"></a></li>
-                <li><a href="#" aria-label="Корзина"><img src="static/images-svg/shopping-cart.svg" alt="Корзина"></a>
+                <li><a href="basket" aria-label="Корзина"><img src="/static/images-svg/shopping-cart.svg" alt="Корзина"></a>
                 </li>
             </ul>
         </nav>
@@ -42,7 +43,6 @@
             <span class="div-span">
                 <h2 style=" padding-top: 30px; padding-left: 40px;">
                     Рекомендации для вас
-
                 </h2>
             </span>
         </div>
@@ -67,7 +67,7 @@
                     <h3 class="product-title">Атака исключительная</h3>
                     <p class="product-description">Аннотация:Лето 2094-го года приносит на Землю испытания, грозящие
                         уничтожить не только целые цивилизации, но всё человечество.</p>
-                    <a href="rider-Anne-Dar.html"><button onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
+                    <a href="reader-Anne-Dar"><button onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
                 </div>
             </div>
             <div class="product-card">
@@ -78,7 +78,7 @@
                     <h3 class="product-title">Личная учиница</h3>
                     <p class="product-description">Огненные маги возмутительные наглецы, но для меня их наглость
                         оказалась счастьем. </p>
-                    <a href="rider-personal-student.html"><button
+                    <a href="reader-personal-student"><button
                             onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                     <h3 class="product-title">Трансерфинг реальности</h3>
                     <p class="product-description">Трансерфинг – это мощная техника, дающая власть творить невозможные с
                         обыденной точки зрения вещи..</p>
-                    <a href="rider-reality-transurfing.html"><button
+                    <a href="reader-reality-transurfing"><button
                             onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                     <h3 class="product-title">Единственный конец злодейки</h3>
                     <p class="product-description">«Нужно бежать, но тело не слушается… Если не остановлю его, то
                         погибну! </p>
-                    <a href="rider-reality-transurfing.html"><button
+                    <a href="reader-reality-transurfing"><button
                             onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                     <p class="product-description">Нетрезвый водитель врезался в фургон на автостраде Лос-Анджелеса.
                         Обычное дело. Вернее, было бы обычным..</p>
 
-                    <a href="rider-language-of-bones.html"><button
+                    <a href="reader-language-of-bones"><button
                             onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
                 </div>
             </div>
@@ -128,7 +128,7 @@
 
                     <p class="product-description">Когда кажется, что хуже быть уже не может, я попадаю в другой мир со
                         странной меткой на руке.</p>
-                    <a href="rider-dragon-general.html"><button
+                    <a href="reader-dragon-general"><button
                             onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
                 </div>
             </div>
@@ -141,7 +141,7 @@
                     <p class="product-description">Берта Исла и Томас Невинсон познакомились еще в школе и решили
                         никогда не расставаться.</p>
 
-                    <a href="rider-berta-isla.html"><button onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
+                    <a href="reader-berta-isla"><button onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
                 </div>
             </div>
             <div class="product-card">
@@ -153,7 +153,7 @@
 
                     <p class="product-description">Не желая мириться с такой несправедливостью, они берут расследование
                         в свои руки. Тем более что появляется новое тело.</p>
-                    <a href="rider-murders-and-cupcakes.html"><button onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
+                    <a href="reader-murders-and-cupcakes"><button onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
                 </div>
             </div>
             <div class="product-card">
@@ -165,7 +165,7 @@
 
                     <p class="product-description">Много лет назад я сбежала сразу после собственной свадьбы. И вот
                         теперь возвращаюсь, чтобы получить от ненавистного мужа развод.</p>
-                   <a href="rider-beautiful-witch.html"><button onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
+                   <a href="reader-beautiful-witch"><button onclick="addToCart('Товар 2', 20)">Прочитать</button></a>
                 </div>
             </div>
 
@@ -444,7 +444,8 @@
                     <h3 class="product-title">Школа чернокнижников</h3>
                     <p class="product-description">Школа чернокнижников – лучшее место в мире, ведь здесь мои друзья,
                         мой неожиданно обретенный брат..</p>
-
+                </div>
+            </div>
             <div class="product-card">
                 <div class="product-image">
                     <img src="https://cv8.litres.ru/pub/c/cover_200/70626280.webp" alt="Товар">
@@ -456,7 +457,6 @@
                     <button onclick="addToCart('Товар 2', 20)">Прочитать</button>
                 </div>
             </div>
-
             <div class="product-card">
                 <div class="product-image">
                     <img src="https://cv6.litres.ru/pub/c/cover_200/70622563.webp" alt="Товар">
@@ -822,7 +822,7 @@
             <a href="#" class="icon" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
         </div>
     </footer>
-    <script src="static/script/login-page.js"></script>
+    <script src="/static/script/login-page.js"></script>
 </body>
 
 </html>
