@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Читатели</title>
+    <link rel="stylesheet" href="static/css/rider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="main.html">
+                    <h1>Читатели</h1>
+                </a>
+            </div>
+            <div class="catalog">
+                <div class="dropdown">
+                    <button class="dropbtn">Каталог<img src="../static/images-svg/open-btn.svg" alt="Каталог"></button>
+                    <div class="dropdown-content">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск..." aria-label="Поиск">
+                <button>Найти</button>
+            </div>
+            <div class="search-box">
+                <ul class="nav-links">
+                    <li><a href="sign-in-page.html" aria-label="Профиль"><img src="../static/images-svg/profile.svg"
+                                alt="Профиль"></a></li>
+                    <li><a href="#" aria-label="Избранное"><img src="../static/images-svg/favorite.svg"
+                                alt="Избранное"></a></li>
+                    <li><a href="making-orders.html" aria-label="Заказы"><img src="../static/images-svg/orders.svg"
+                                alt="Заказы"></a></li>
+                    <li><a href="book-shop.html" aria-label="Корзина"><img src="../static/images-svg/shopping-cart.svg"
+                                alt="Корзина"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <button id="toggle-menu" aria-label="Открыть настройки">Настройки</button>
+        <nav id="side-menu">
+            <ul>
+                <li><a href="#">Яркость</a></li>
+                <li>
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="100" value="50" class="slider" id="brightnessRange">
+                    </div>
+                </li>
+                <li><a href="#">Размер текста</a></li>
+                <li>
+                    <div class="slidecontainer">
+                        <input type="range" min="12" max="36" value="18" class="slider" id="textSizeRange">
+                    </div>
+                </li>
+                <li>
+                    <div class="theme">
+                        <label>
+                            <input type="checkbox" id="darkModeToggle">
+                            Темная тема
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content">
+            <div class="reader-container" id="reader-container">
+                <button class="nav-button prev-button" onclick="prevPage()">&#10094;</button>
+                <div id="book-content"></div>
+                <button class="nav-button next-button" onclick="nextPage()">&#10095;</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <p>8 (800) 500-05-22 <br>Контактный центр</p>
+        </div>
+        <div class="footer-center">
+            <p>г. Москва, ул. Тимура Фрунзе, дом 11 <br>futureskills@mail.ru</p>
+        </div>
+        <div class="footer-icon-right">
+            <a href="#" class="icon" aria-label="VK"><i class="fa-brands fa-vk"></i></a>
+            <a href="#" class="icon" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+    </footer>
+    <script src="../static/script/rider-berta-isla.js"></script>
+
+</body>
+
+</html>

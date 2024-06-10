@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина товаров</title>
+    <link rel="stylesheet" href="../static/css/menu-ste.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="main.html" style="text-decoration: none; color: black;"><h1>Читатели</h1></a>
+            </div>
+            <div class="catalog">
+                <button>Каталог<img src="../static/images-svg/open-btn.svg" alt="Каталог"></button>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Поиск..." aria-label="Поиск">
+                <button>Найти</button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="sign-in-page.html" aria-label="Профиль"><img src="../static/images-svg/profile.svg" alt="Профиль"></a></li>
+                <li><a href="favourites.html" aria-label="Избранное"><img src="../static/images-svg/favorite.svg" alt="Избранное"></a>
+                </li>
+                <li><a href="making-orders.html" aria-label="Заказы"><img src="../static/images-svg/orders.svg" alt="Заказы"></a></li>
+                <li><a href="#" aria-label="Корзина"><img src="../static/images-svg/shopping-cart.svg" alt="Корзина"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cdn1.ozone.ru/multimedia/wc600/1016706733.jpg" alt="Товар" >
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Книга: Валентин Серов</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: 5000 РУБ</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv7.litres.ru/pub/c/cover_330/70719373.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv1.litres.ru/pub/c/cover_200/70735318.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv4.litres.ru/pub/c/cover_185/70732447.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv3.litres.ru/pub/c/cover_200/70650433.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv6.litres.ru/pub/c/cover_185/70612663.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv2.litres.ru/pub/c/cover_200/70727620.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv6.litres.ru/pub/c/cover_185/70565167.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv4.litres.ru/pub/c/cover_185/70594741.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv6.litres.ru/pub/c/cover_200/70685065.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+
+
+
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv8.litres.ru/pub/c/cover_200/70626280.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv6.litres.ru/pub/c/cover_200/70622563.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv0.litres.ru/pub/c/cover_185/69526501.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv1.litres.ru/pub/c/cover_200/70728715.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv2.litres.ru/pub/c/cover_185/17195427.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="https://cv1.litres.ru/pub/c/cover_185/27105317.webp" alt="Товар">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Название товара</h3>
+                <p class="product-description">Описание товара, которое может быть достаточно длинным, чтобы показать, как он выглядит на разных устройствах.</p>
+                <div class="product-price">Цена: $99.99</div>
+                <button onclick="addToCart('Товар 2', 20)">Добавить в корзину</button>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <div>
+            <p>8 (800) 500-05-22 <br>Контактный центр</p>
+        </div>
+        <div class="footer-icon">
+            <a href="#" class="icon" aria-label="VK"><i class="fa-brands fa-vk"></i></a>
+            <a href="#" class="icon" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+    </footer>
+    <script src="../static/script/login-page.js"></script>
+</body>
+</html>
